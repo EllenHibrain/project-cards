@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    background-color: #40372F;
+}
+
+.position {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    flex-direction: row;
+    position: relative;
+    display: block;
+    height: auto;
+    color: #bfa48c;
+}
+
+.card {
+    width: 22rem;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #E6C4A8;
+}
+
+.card__text {
+    text-align: center;
+    color: #40372F;
+}
+
+.card__text--txt {
+    margin-top: 20px;
+}
+
