@@ -1,35 +1,32 @@
 const listaPalavras = [
     {
         palavra: "width",
-        significado: "asdfasd",
-        traducao: "largura"
+        significado: "description 1",
     },
     {
         palavra: "height",
-        significado: "Felipe",
-        traducao: "altura"
+        significado: "description 2",
     },
     {
         palavra: "title",
-        significado: "Ellen",
-        traducao: "titulo"
+        significado: "description 3",
     },
     {
         palavra: "get",
-        significado: "qwetrtuty",
-        traducao: "pegar"
+        significado: "description 4",
     }
 ]
 
-let newcard = function(t, subtitulo, text) {
+let newcard = function(word, text) {
 
-    let titulo = document.querySelector("[data-title]");
-    let b = document.querySelector("[data-subtitle]");
+    let titleElement = document.querySelector("[data-title]");
     let textElement = document.querySelector("[data-text-card]");
     
-    titulo.innerText = t
-    b.innerText = subtitulo
+    titleElement.innerText = word
     textElement.innerText = text
 }
 
-newcard(listaPalavras[0].palavra, listaPalavras[0].traducao, listaPalavras[0].significado)
+newcard(listaPalavras[0].palavra, listaPalavras[0].significado)
+
+
+
